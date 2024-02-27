@@ -51,6 +51,38 @@ nav{
 }
 #nav-part2 h4{
     padding: 10PX 20PX;
-    border: 1px solid black; 
+    border: 1px solid rgba(82, 82, 82, 0.781); 
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
 
+}
+#nav-part2 h4::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+   
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+}
+#nav-part2 h4:hover::after{
+    bottom: 0;
+    border-radius: 0%;
+
+}
+#nav-part2 h4 a {
+    color: #000000bb;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+#nav-part2 h4:hover a {
+    color: #fff;
 }
