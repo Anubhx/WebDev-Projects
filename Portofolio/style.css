@@ -25,18 +25,20 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: #EFEAE3;
 }
 #page1 {
     min-height: 100vh;
     width: 100%;
-    background-color: #EFEAE3;
+    background-color: EFEAE3;
     position: relative;
     padding: 0 2vw;
 }
+
 nav {
     padding: 2vw 0vw;
     width: 100%;
-    /* background-color: red; */
+     background-color: EFEAE3; 
     display: flex;
     align-items: center;
     position: relative;
@@ -89,6 +91,7 @@ nav {
 #nav-part2 h4:hover a {
     color: #fff;
 }
+
 nav h3 {
     display: none;
 }
@@ -96,7 +99,7 @@ nav h3 {
 #center {
     height: 65vh;
     width: 100%;
-  
+    /* background-color: orange; */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -108,8 +111,8 @@ nav h3 {
     width: 25vw;
     font-size: 1.8vw;
     line-height: 2vw;
-    
 }
+
 #center h1 {
     font-size: 10vw;
     text-align: right;
